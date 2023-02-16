@@ -1,0 +1,31 @@
+.container {
+     @apply flex justify-around p-20;
+}
+@media (min-width:1024px){
+    .container{
+          flex: 1;
+          flex-direction: row;
+     }
+}
+@media (min-width:768px){
+     .container{
+          width: 100%;
+          font-size: 15px;
+      }
+ }
+ @media (min-width:425px){
+     .container{
+          width: 100%;
+      }
+ }
+ @media (min-width:375px){
+     .container{
+          width: 100%;
+      }
+ }
+ @media (min-width:320px){
+     .container{
+          width: 100%;
+      }
+ }
+

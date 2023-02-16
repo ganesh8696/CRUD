@@ -1,0 +1,30 @@
+.container {
+	@apply flex flex-col;
+	width: 100%;
+}
+
+@media (min-width: 1000px) {
+	.container {
+		@apply flex flex-row;
+		width: 100%;
+	}
+}
+
+.container1 {
+	@apply flex flex-col  justify-center;
+	width: 50%;
+}
+.container2 {
+	width: 50%;
+}
+
+.input {
+	width: 60%;
+}
+
+/* @media (min-width: 1000px) {
+	.input {
+		width: 60%;
+		margin-bottom: 10;
+	}
+} */

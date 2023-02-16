@@ -1,0 +1,7 @@
+dist
+node_modules
+.gitignore
+.eslintignore
+.env.*
+.idea
+.next
